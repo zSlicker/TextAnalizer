@@ -1,0 +1,5 @@
+c:\users\programmer\documents\visual studio 2013\Projects\SlickerChatBot\DiffWords\bin\Debug\DiffWords.dll
+c:\users\programmer\documents\visual studio 2013\Projects\SlickerChatBot\DiffWords\bin\Debug\DiffWords.pdb
+c:\users\programmer\documents\visual studio 2013\Projects\SlickerChatBot\DiffWords\obj\Debug\DiffWords.dll
+c:\users\programmer\documents\visual studio 2013\Projects\SlickerChatBot\DiffWords\obj\Debug\DiffWords.pdb
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\SlickerChatBot\DiffWords\obj\Debug\DiffWords.csprojResolveAssemblyReference.cache

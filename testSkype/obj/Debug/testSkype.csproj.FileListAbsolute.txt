@@ -1,0 +1,13 @@
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\SlickerChatBot\testSkype\bin\Debug\testSkype.exe.config
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\SlickerChatBot\testSkype\obj\Debug\Interop.SKYPE4COMLib.dll
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\SlickerChatBot\testSkype\obj\Debug\testSkype.csproj.ResolveComReference.cache
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\SlickerChatBot\testSkype\bin\Debug\testSkype.exe
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\SlickerChatBot\testSkype\bin\Debug\testSkype.pdb
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\SlickerChatBot\testSkype\obj\Debug\testSkype.Form1.resources
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\SlickerChatBot\testSkype\obj\Debug\testSkype.Properties.Resources.resources
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\SlickerChatBot\testSkype\obj\Debug\testSkype.csproj.GenerateResource.Cache
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\SlickerChatBot\testSkype\obj\Debug\testSkype.exe
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\SlickerChatBot\testSkype\obj\Debug\testSkype.pdb
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\SlickerChatBot\testSkype\bin\Debug\DiffWords.dll
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\SlickerChatBot\testSkype\bin\Debug\DiffWords.pdb
+C:\Users\Programmer\Documents\Visual Studio 2013\Projects\SlickerChatBot\testSkype\obj\Debug\testSkype.csprojResolveAssemblyReference.cache
