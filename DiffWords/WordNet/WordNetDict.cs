@@ -21,7 +21,7 @@ namespace DiffWords
         private static List<List<string>> ReadDict(PartOfSpeech.Type _type, string name)
         {
             List<List<string>> temp = new List<List<string>>();
-            using (StreamReader sr = new StreamReader(@"C:\dict\wordnet\" + name + "." + _type.ToString().ToLower()))
+            using (StreamReader sr = new StreamReader(Environment.CurrentDirectory + @"\dict\wordnet\" + name + "." + _type.ToString().ToLower()))
             {
                 while (!sr.EndOfStream)
                 {

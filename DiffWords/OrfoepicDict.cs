@@ -34,7 +34,7 @@ namespace DiffWords
             List<List<string>> result = new List<List<string>>();
             List<string> temp = new List<string>();
 
-            foreach (string s in File.ReadLines(@"C:\dict\orfoepic.txt"))
+            foreach (string s in File.ReadLines(Environment.CurrentDirectory + @"\dict\orfoepic.txt"))
             {
                 if (!string.IsNullOrEmpty(s.Trim()))
                     temp.Add(s.Split(new string[] { " | " }, StringSplitOptions.RemoveEmptyEntries)[0].Trim());
