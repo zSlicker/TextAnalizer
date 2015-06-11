@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using SKYPE4COMLib;
 using DiffWords;
+using System.Data.SQLite;
+using System.Data.Sql;
 
 namespace testSkype
 {

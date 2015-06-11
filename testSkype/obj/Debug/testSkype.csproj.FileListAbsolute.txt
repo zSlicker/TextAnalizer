@@ -24,3 +24,11 @@ C:\git\TextAnalizer\testSkype\obj\Debug\testSkype.csprojResolveAssemblyReference
 C:\git\TextAnalizer\testSkype\obj\Debug\testSkype.Form1.resources
 C:\git\TextAnalizer\testSkype\obj\Debug\testSkype.Properties.Resources.resources
 C:\git\TextAnalizer\testSkype\obj\Debug\testSkype.csproj.GenerateResource.Cache
+C:\git\TextAnalizer\testSkype\bin\Debug\System.Data.SQLite.dll
+C:\git\TextAnalizer\testSkype\bin\Debug\EntityFramework.dll
+C:\git\TextAnalizer\testSkype\bin\Debug\EntityFramework.SqlServer.dll
+C:\git\TextAnalizer\testSkype\bin\Debug\System.Data.SQLite.EF6.dll
+C:\git\TextAnalizer\testSkype\bin\Debug\System.Data.SQLite.Linq.dll
+C:\git\TextAnalizer\testSkype\bin\Debug\EntityFramework.xml
+C:\git\TextAnalizer\testSkype\bin\Debug\EntityFramework.SqlServer.xml
+C:\git\TextAnalizer\testSkype\bin\Debug\System.Data.SQLite.xml
