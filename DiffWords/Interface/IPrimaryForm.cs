@@ -8,6 +8,6 @@ namespace DiffWords
 {
     interface IPrimaryForm
     {
-        Word PrimaryForm(Word _word);
+        Word Analize(Word _word);
     }
 }

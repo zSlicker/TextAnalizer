@@ -16,7 +16,7 @@ namespace DiffWords
             Nouns = ReadDict();
         }
 
-        public Word PrimaryForm(Word _word)
+        public Word Analize(Word _word)
         {
             foreach (List<string> n in this.Nouns)
             {

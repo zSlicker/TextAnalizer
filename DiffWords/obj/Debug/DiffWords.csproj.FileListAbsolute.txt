@@ -16,3 +16,4 @@ C:\git\TextAnalizer\DiffWords\bin\Debug\System.Data.SQLite.Linq.dll
 C:\git\TextAnalizer\DiffWords\bin\Debug\EntityFramework.xml
 C:\git\TextAnalizer\DiffWords\bin\Debug\EntityFramework.SqlServer.xml
 C:\git\TextAnalizer\DiffWords\bin\Debug\System.Data.SQLite.xml
+C:\git\TextAnalizer\DiffWords\obj\Debug\DiffWords.csprojResolveAssemblyReference.cache

@@ -33,7 +33,13 @@ namespace DiffWords
         public string PartOfSpeech
         {
             get;
-            private set;
-        }        
+            set;
+        }
+
+        public string FirstForm
+        {
+            get;
+            set;
+        }      
     }
 }

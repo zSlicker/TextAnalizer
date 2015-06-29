@@ -16,7 +16,7 @@ namespace DiffWords
             return con;
         }
 
-        public DataSet GetWords()
+        public DataSet ExecQuery(string query)
         {
             OdbcConnection con = connect();
             con.Open();
@@ -26,9 +26,32 @@ namespace DiffWords
             da.SelectCommand = new OdbcCommand();
             OdbcCommandBuilder myCommandBuilder_DoubleBase = new OdbcCommandBuilder(da);
             da.SelectCommand.Connection = con;
-            da.SelectCommand.CommandText = string.Format(@"Select * from `sg_form`");
+            da.SelectCommand.CommandText = string.Format(query);
             da.Fill(ds);
+
+            con.Close();
+
             return ds;
+        }
+
+        public DataSet GetForm()
+        {
+            return ExecQuery(string.Format(@"Select * from `sg_form`"));
+        }
+
+        public DataSet GetLexem()
+        {
+            return ExecQuery(string.Format(@"Select * from `sg_lexem`"));
+        }
+
+        public DataSet GetEntry()
+        {
+            return ExecQuery(string.Format(@"Select * from `sg_entry`"));
+        }
+
+        public DataSet GetClass()
+        {
+            return ExecQuery(string.Format(@"Select * from `sg_class`"));
         }
     }
 }

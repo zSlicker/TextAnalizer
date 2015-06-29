@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiffWords", "DiffWords\Diff
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testSkype", "testSkype\testSkype.csproj", "{490C6113-7904-4C31-8697-A0E1DD3D5734}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQlite", "SQlite\SQlite.csproj", "{4001EDE2-8EB1-4644-B7E4-192879C281BE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGUI", "SQlite\TestGUI.csproj", "{4001EDE2-8EB1-4644-B7E4-192879C281BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

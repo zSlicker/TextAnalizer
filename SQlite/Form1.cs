@@ -21,15 +21,25 @@ namespace SQlite
             InitializeComponent();
         }
 
+        DiffWords.AnalizeWord aw;
+
         private void Form1_Load(object sender, EventArgs e)
         {
-            //DiffWords.DBReader db = new DiffWords.DBReader();
-           // DataSet d = db.GetWords();
-            DiffWords.GetPrimaryForm ft = new DiffWords.GetPrimaryForm();
-            DiffWords.Word w = ft.PrimaryForm(new DiffWords.Word("петь"));
-            
+            aw = new DiffWords.AnalizeWord();  
         }
 
-       
+        private void button1_Click(object sender, EventArgs e)
+        {
+            DiffWords.Sentence sentence = new DiffWords.Sentence(textBox1.Text);
+
+            foreach (DiffWords.Word s in sentence.AllWords)
+            {
+                DiffWords.Word w = aw.Analize(s);
+
+                listBox1.Items.Add(w.Value);
+                listBox2.Items.Add(w.FirstForm);
+                listBox3.Items.Add(w.PartOfSpeech);
+            }
+        }
     }
 }

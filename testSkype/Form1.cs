@@ -19,6 +19,9 @@ namespace testSkype
         private WordNet wordNet;
         private OrfoepicDict orfoepic;
         Skype skype_machine;
+
+        DiffWords.AnalizeWord aw;
+
         public Form1()
         {
             InitializeComponent();
@@ -33,6 +36,7 @@ namespace testSkype
             skype_machine.Attach(7, false);
             skype_machine.MessageStatus += new _ISkypeEvents_MessageStatusEventHandler(skype_MessageStatus);
 
+            aw = new DiffWords.AnalizeWord();
         }
 
         private void skype_MessageStatus(ChatMessage msg, TChatMessageStatus status)
@@ -50,12 +54,28 @@ namespace testSkype
             Sentence sentence = new Sentence(Text);
 
             result += "Тип предложения: " + sentence.RuType + Environment.NewLine;
-            result += "Длина предложения: " + sentence.Length.ToString() + Environment.NewLine;
+            // result += "Длина предложения: " + sentence.Length.ToString() + Environment.NewLine;
             result += "Ключевые слова: " + Environment.NewLine;
             foreach (Word s in sentence.AllWords)
             {
                 Word currentWord = s;
-                Word primaryWord = orfoepic.PrimaryForm(currentWord);
+
+
+                currentWord = aw.Analize(currentWord);
+
+                result += currentWord.Value + "" + Environment.NewLine;
+
+                if (currentWord.FirstForm != null)
+                {
+                    result += "Начальная форма: ";
+                    result += " - " + currentWord.FirstForm + "; ";
+                    result += Environment.NewLine;
+
+                    result += "Часть речи: ";
+                    result += " - " + currentWord.PartOfSpeech + "; ";
+                }
+
+                /*Word primaryWord = orfoepic.Analize(currentWord);
 
 
 
@@ -84,7 +104,7 @@ namespace testSkype
 
                 result += Environment.NewLine;
             }
-            
+
             return result;
         }
     }
